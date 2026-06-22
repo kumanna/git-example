@@ -12,7 +12,7 @@ factorial(int n)
 }
 
 int
-main(void)
+main(int argc, char *argv[])
 {
 	printf("Factorial of 3 is %d.\n", factorial(3));
 	return 0;
