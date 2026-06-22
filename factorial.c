@@ -20,6 +20,9 @@ main(int argc, char *argv[])
 		n = atoi(argv[1]);
 		printf("Calculating factorial for %d.\n", n);
 	}
+	else {
+		printf("Calculating factorial of 3 by default.\n");
+	}
 	printf("Factorial of %d is %d.\n", n, factorial(n));
 	return 0;
 }
