@@ -8,7 +8,6 @@ factorial(int n)
 	int prod = 1;
 	for (int i = n; i >= 2; --i) {
 		prod *= i;
-		printf("i = %d\n");
 	}
 	return prod;
 }
