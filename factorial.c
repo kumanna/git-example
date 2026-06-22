@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int
 factorial(int n)
@@ -14,6 +15,7 @@ factorial(int n)
 int
 main(int argc, char *argv[])
 {
-	printf("Factorial of 3 is %d.\n", factorial(3));
+	int n = 3;
+	printf("Factorial of %d is %d.\n", n, factorial(n));
 	return 0;
 }
